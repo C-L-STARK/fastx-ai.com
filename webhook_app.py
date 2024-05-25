@@ -9,7 +9,7 @@ def webhook():
     if request.method == 'POST':
         try:
             # 拉取最新代码
-            result = subprocess.run(['git', 'pull origin master --force'], capture_output=True, text=True)
+            result = subprocess.run(['git', 'pull'], capture_output=True, text=True)
             if result.returncode == 0:
                 return jsonify({'message': 'Pull successful', 'output': result.stdout}), 200
             else:
