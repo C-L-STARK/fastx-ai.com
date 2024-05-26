@@ -1,0 +1,61 @@
+{
+    "code": 200,
+    "message": "ok",
+    "data": [
+        {
+            "id": 1,
+            "name": "太极拳、太极剑",
+            "nameSuffix": ["五大流派"],
+            "desc": "太极拳是一种中国传统的武术和健身方法，有多个流派，每个流派都有其独特的风格和特点。太极剑是太极拳的一个重要组成部分，是一种结合了武术与艺术的传统中国剑术。",
+            "image": "/static/taichi.webp",
+            "studyCount": "999+",
+            "enable": "true"
+        },
+        {
+            "id": 2,
+            "name": "健身操、广场舞",
+            "nameSuffix": [],
+            "desc": "健身操和广场舞是有氧运动，动作简单易学，增强心肺功能和肌肉力量。",
+            "image": "/static/dancing.webp",
+            "studyCount": "999+",
+            "enable": "false"
+        },
+        {
+            "id": 3,
+            "name": "健身、气功、瑜伽",
+            "nameSuffix": [],
+            "desc": "水中健身是低冲击性的全身运动，通过水的浮力减少关节压力，增强心肺功能和全身肌肉。瑜伽和气功通过拉伸、呼吸和冥想的结合，增强身体柔韧性、平衡感和内在气息流动。",
+            "image": "/static/swim.webp",
+            "studyCount": "999+",
+            "enable": "false"
+        },
+        {
+            "id": 4,
+            "name": "艺术",
+            "nameSuffix": ["绘画", "书法", "音乐", "舞蹈", "手工艺"],
+            "desc": "用艺术表达提升手眼协调能力，培养专注力，同时享受创造的乐趣，丰富精神生活。手工艺如编织、雕刻、手工制作等，不仅能锻炼动手能力，还能提供一种创造的成就感，提升生活质量。",
+            "image": "/static/paint.webp",
+            "studyCount": "999+",
+            "enable": "false"
+    
+        },
+        {
+            "id": 5,
+            "name": "饮食和营养",
+            "nameSuffix": [],
+            "desc": "健康饮食和营养学习帮助老年人了解如何合理搭配饮食，保持健康体重，通过营养知识提升生活质量，预防慢性病。",
+            "image": "/static/cook.webp",
+            "studyCount": "999+",
+            "enable": "false"
+        },
+        {
+            "id": 6,
+            "name": "心理健康、冥想",
+            "nameSuffix": [],
+            "desc": "放松身心，提升心理健康，缓解压力和焦虑，保持内心的平静与专注。",
+            "image": "/static/mx-1.webp",
+            "studyCount": "999+",
+            "enable": "false"
+        }
+    ]
+}
